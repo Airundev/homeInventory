@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InventoryListCell">
+        <attr name="inventoryListCellImage" format="reference" />
+        <attr name="inventoryListCellTitle" format="string" />
+        <attr name="inventoryListCellSubtitle" format="string" />
+        <attr name="inventoryListCellActionImage" format="reference" />
+    </declare-styleable>
+</resources>
