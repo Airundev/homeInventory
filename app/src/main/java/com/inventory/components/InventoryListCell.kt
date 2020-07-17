@@ -22,8 +22,7 @@ class InventoryListCell @JvmOverloads constructor(
     }
 
     private fun setupAttributes(attrs: AttributeSet?) {
-        val typedArray =
-            context.theme.obtainStyledAttributes(attrs, R.styleable.InventoryListCell, 0, 0)
+        val typedArray = context.theme.obtainStyledAttributes(attrs, R.styleable.InventoryListCell, 0, 0)
 
         // Icon
         setImage(typedArray.getResourceIdOrThrow(R.styleable.InventoryListCell_inventoryListCellImage))
